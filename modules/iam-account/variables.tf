@@ -3,9 +3,9 @@ variable "get_caller_identity" {
   default     = true
 }
 
-variable "account_alias" {
-  description = "AWS IAM account alias for this account"
-}
+# variable "account_alias" {
+#   description = "AWS IAM account alias for this account"
+# }
 
 variable "create_account_password_policy" {
   description = "Whether to create AWS IAM account password policy"
